@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="play_button">Play</string>
+    <string name="choose_player">Choose Player</string>
+    <string name="player1">Player X</string>
+    <string name="player2">Player O</string>
+    <string name="player1_choice">Player1_Choice</string>
+    <string name="player2_choice">Player2_Choice</string>
+    <string name="im_Ready">Im Ready!</string>
+    <string name="player1_input">Player1 Input</string>
+    <string name="player2_input">Player2 Input</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="playGame">Play</string>
+    <string name="highScore">HighScore</string>
+    <string name="highScore1">High Score</string>
+    <string name="listView">ListView</string>
+    <string name="back">Back</string>
+    <string name="newGame">New Game</string>
+    <string name="reset">Reset</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="playerX">PlayerX</string>
+    <string name="playerO">PlayerO</string>
+    <string name="text">TextView</string>
+    <string name="name">Name</string>
+    <string name="score">Score</string>
+    <string name="textview">TextView</string>
+</resources>

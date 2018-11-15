@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/fullscreen_content"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal"
+        android:background="@drawable/high_score">
+
+        <TextView
+            android:id="@+id/player1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.82"
+            android:gravity="center"
+            android:text="@string/textview"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/player2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.84"
+            android:gravity="center"
+            android:text="@string/textview"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/Grid"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:background="#00ccff"
+        android:keepScreenOn="true" >
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/view1"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@drawable/border2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:onClick="click"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/view2"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border2"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="click"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="100sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/view3"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@drawable/border2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:onClick="click"
+                android:clickable="true"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/view4"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:background="@drawable/border2"
+                android:onClick="click"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="100sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/view5"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border2"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:onClick="click"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/view6"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/border2"
+                android:gravity="center"
+                android:onClick="click"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="100sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/view7"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="100sp"
+                android:background="@drawable/border2"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:onClick="click"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/view8"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="100sp"
+                android:background="@drawable/border2"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:onClick="click"
+                android:clickable="true"/>
+            <TextView
+                android:id="@+id/view9"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border2"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:onClick="click"
+                android:clickable="true"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@drawable/high_score">
+
+        <Button
+            android:id="@+id/highScore"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.32"
+            android:onClick="highScore"
+            android:text="@string/highScore" />
+
+        <Button
+            android:id="@+id/newGame"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.32"
+            android:onClick="newGame"
+            android:text="@string/newGame" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/reset"
+            android:onClick="clean"
+            android:layout_weight="0.34" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
